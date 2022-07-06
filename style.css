@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    color: rgb(105, 94, 94);
+    font-size: 16px;
+}
+
+.main-head {
+    background-image: url('img/donation2.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title h1 {
+    max-width: 750px;
+    color: rgb(255 100 0 / 94%);
+}
+
+.home-title p {
+    max-width: 585px;
+    margin: auto;
+    color: rgba(245, 241, 239, 0.94);
+}
+
+.button {
+    padding-top: 25px;
+}
+
+.home-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: rgb(218, 65, 65);
+    border-radius: 5px
+}
+/*=========== home menu section end=========== */
+.donete-section {
+    padding: 50px 0;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.donete-cost p {
+    max-width: 585px;
+    margin: auto;
+}
+
+.total-amount {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.amount {
+    width: 137px;
+    height: 110px;
+    background-color: rgb(241, 234, 234);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    border-radius: 5px;
+}
+
+#hover-amount {
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: rgb(248, 212, 212);
+    border-radius: 5px;
+}
+
+/* ============== donete section end ============= */
+.our-donete-plan {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.donet-plan {
+    display: flex;
+    gap: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.food-for {
+    width: 360px;
+    min-height: 220px;
+    background-color: rgb(240, 237, 222);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.shelter-for {
+    width: 360px;
+    min-height: 220px;
+    background-color: rgb(243 236 199);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.education-for {
+    width: 360px;
+   min-height: 220px;
+    background-color: rgb(224, 213, 154);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+/*  =============our-donete-section end============ */
+.their-lives-depend {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 85px;
+    margin-top: 100px;
+}
+
+.their-lives {
+    width: 460px;
+}
+
+.lives-gallery img {
+    width: 460px;
+    height: 360px;
+    border-radius: 5px;
+}
+
+/* ========  their-lives-depend-section end ======== */
+.gallery{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+.gallery-title{
+    text-align: center;
+}
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+.gallery-img img{
+    max-width: 339px;
+}
+
+/* ============gallery Section end============ */
+.get-my-update-section {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.form {
+    display: flex;
+    background-color: rgb(245, 216, 182);
+    width: 50%;
+    margin: auto;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+.input-email {
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.submit {
+    padding: 8px 22px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(218, 65, 65);
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+
+/* ============ get-my-update-sectionend=========== */
+.footer {
+    background-color: black;
+    text-align: center;
+    color: tomato;
+    font-family: 'Lobster', cursive;
+    padding: 10px 0;
+}
